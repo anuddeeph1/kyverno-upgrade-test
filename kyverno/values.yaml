@@ -707,10 +707,10 @@ features:
       # - PolicyError
   policyExceptions:
     # -- Enables the feature
-    enabled: false
+    enabled: true
     # -- Restrict policy exceptions to a single namespace
     # Set to "*" to allow exceptions in all namespaces
-    namespace: ''
+    namespace: 'kyverno'
   protectManagedResources:
     # -- Enables the feature
     enabled: false
