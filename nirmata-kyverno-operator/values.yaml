@@ -6,7 +6,7 @@ profile: "prod"
 
 cloudPlatform: ""
 
-namespace: nirmata
+namespace: nirmata-system
 
 globalLabels: {}
 globalAnnotations: {}
