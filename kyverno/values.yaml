@@ -53,7 +53,7 @@ nameOverride: ~
 fullnameOverride: ~
 
 # -- (string) Override the namespace the chart deploys to
-namespaceOverride: kyverno
+namespaceOverride: ~
 
 # -- (bool) Deploy FIPS compliant images of all the components of n4k
 fipsEnabled: false
