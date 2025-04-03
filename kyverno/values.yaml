@@ -739,7 +739,7 @@ features:
 
 # Admission controller configuration
 admissionController:
-
+  replicas: 3
   # -- Overrides features defined at the root level
   featuresOverride:
     admissionReports:
@@ -1156,6 +1156,7 @@ admissionController:
 
 # Background controller configuration
 backgroundController:
+  replicas: 3
 
   # -- Overrides features defined at the root level
   featuresOverride: {}
@@ -1464,6 +1465,7 @@ backgroundController:
 
 # Cleanup controller configuration
 cleanupController:
+  replicas: 3
 
   # -- Overrides features defined at the root level
   featuresOverride: {}
@@ -1777,6 +1779,7 @@ cleanupController:
 
 # Reports controller configuration
 reportsController:
+  replicas: 3
 
   # -- Overrides features defined at the root level
   featuresOverride: {}
